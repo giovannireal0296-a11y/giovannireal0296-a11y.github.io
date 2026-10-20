@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ICU Formulas</title>
+<meta name="description" content="Bedside critical care calculators with interpretation tables and step-by-step guides.">
+<meta name="theme-color" content="#0d181e">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <button type="button" id="back" class="hbtn iconbtn" aria-label="Up one level" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <a class="brand" href="#"><span class="code">f(x)</span><span class="wordmark">ICU Formulas</span></a>
+    <button type="button" id="searchBtn" class="hbtn iconbtn" aria-label="Search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+    </button>
+    <button type="button" id="clearAll" class="hbtn" title="Forget every value entered in this session">
+      <span class="lbl">Clear values</span><span class="badge">0</span>
+    </button>
+  </div>
+</header>
+<main>
+  <div id="view" aria-live="off"></div>
+</main>
+<noscript><p style="padding:16px">This app needs JavaScript.</p></noscript>
+<script src="js/core.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/data/vars.js"></script>
+<script src="js/data/ventilation.js"></script>
+<script src="js/data/effort.js"></script>
+<script src="js/data/gas.js"></script>
+<script src="js/data/oxygen.js"></script>
+<script src="js/data/hemodynamics.js"></script>
+<script src="js/data/fluids.js"></script>
+<script src="js/data/perfusion.js"></script>
+<script src="js/data/acidbase.js"></script>
+<script src="js/data/electrolytes.js"></script>
+<script src="js/data/renal.js"></script>
+<script src="js/data/nutrition.js"></script>
+<script src="js/data/drugs.js"></script>
+<script src="js/data/liver-blood.js"></script>
+<script src="js/data/coag.js"></script>
+<script src="js/data/physics.js"></script>
+<script src="js/figures.js"></script>
+<script src="js/guides.js"></script>
+<script src="js/ui.js"></script>
+</body>
+</html>
